@@ -17,6 +17,7 @@
 		A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6422BAC632E006FF33C /* ButtonType.swift */; };
 		A135C6482BAC63B9006FF33C /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6472BAC63B9006FF33C /* Digit.swift */; };
 		A135C64A2BAC63C4006FF33C /* ArithmeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6492BAC63C4006FF33C /* ArithmeticOperation.swift */; };
+		A135C64D2BAC67A0006FF33C /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C64C2BAC67A0006FF33C /* CalculatorButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A135C6422BAC632E006FF33C /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		A135C6472BAC63B9006FF33C /* Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
 		A135C6492BAC63C4006FF33C /* ArithmeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperation.swift; sourceTree = "<group>"; };
+		A135C64C2BAC67A0006FF33C /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		A135C6152BAC6183006FF33C /* barberini_calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A135C64B2BAC678D006FF33C /* Styles */,
 				A135C6462BAC639B006FF33C /* Views */,
 				A135C6452BAC6388006FF33C /* Models */,
 				A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */,
@@ -150,6 +153,14 @@
 				A135C6402BAC61CA006FF33C /* CalculatorView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A135C64B2BAC678D006FF33C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A135C64C2BAC67A0006FF33C /* CalculatorButtonStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				A135C64A2BAC63C4006FF33C /* ArithmeticOperation.swift in Sources */,
 				A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */,
 				A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */,
+				A135C64D2BAC67A0006FF33C /* CalculatorButtonStyle.swift in Sources */,
 				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
 				A135C6482BAC63B9006FF33C /* Digit.swift in Sources */,
 			);
