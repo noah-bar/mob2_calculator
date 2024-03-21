@@ -2,7 +2,7 @@
 //  ButtonType.swift
 //  barberini_calculator
 //
-//  Created by hyil on 21.03.2024.
+//  Created by noah on 21.03.2024.
 //
 
 import Foundation
