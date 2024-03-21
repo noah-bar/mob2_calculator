@@ -23,7 +23,7 @@
 					<key>payload</key>
 					<dict>
 						<key>relative-path</key>
-						<string>barberini_calculator/Views/CalculatorView.swift</string>
+						<string>calculator/Views/CalculatorView.swift</string>
 					</dict>
 				</dict>
 			</dict>
@@ -60,7 +60,7 @@
 					<key>payload</key>
 					<dict>
 						<key>relative-path</key>
-						<string>barberini_calculator/Views/CalculatorView.swift</string>
+						<string>calculator/Views/CalculatorView.swift</string>
 					</dict>
 				</dict>
 			</dict>

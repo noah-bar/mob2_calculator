@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */; };
+		A135C6172BAC6183006FF33C /* calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6162BAC6183006FF33C /* calculatorApp.swift */; };
 		A135C61B2BAC6183006FF33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61A2BAC6183006FF33C /* Assets.xcassets */; };
 		A135C61E2BAC6183006FF33C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */; };
-		A135C6282BAC6183006FF33C /* barberini_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */; };
-		A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */; };
-		A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */; };
+		A135C6282BAC6183006FF33C /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6272BAC6183006FF33C /* calculatorTests.swift */; };
+		A135C6322BAC6183006FF33C /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6312BAC6183006FF33C /* calculatorUITests.swift */; };
+		A135C6342BAC6183006FF33C /* calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6332BAC6183006FF33C /* calculatorUITestsLaunchTests.swift */; };
 		A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6402BAC61CA006FF33C /* CalculatorView.swift */; };
 		A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6422BAC632E006FF33C /* ButtonType.swift */; };
 		A135C6482BAC63B9006FF33C /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6472BAC63B9006FF33C /* Digit.swift */; };
@@ -30,27 +30,27 @@
 			containerPortal = A135C60B2BAC6182006FF33C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A135C6122BAC6183006FF33C;
-			remoteInfo = barberini_calculator;
+			remoteInfo = calculator;
 		};
 		A135C62E2BAC6183006FF33C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A135C60B2BAC6182006FF33C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A135C6122BAC6183006FF33C;
-			remoteInfo = barberini_calculator;
+			remoteInfo = calculator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A135C6132BAC6183006FF33C /* barberini_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barberini_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorApp.swift; sourceTree = "<group>"; };
+		A135C6132BAC6183006FF33C /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6162BAC6183006FF33C /* calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorApp.swift; sourceTree = "<group>"; };
 		A135C61A2BAC6183006FF33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorTests.swift; sourceTree = "<group>"; };
-		A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITests.swift; sourceTree = "<group>"; };
-		A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A135C6232BAC6183006FF33C /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6272BAC6183006FF33C /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
+		A135C62D2BAC6183006FF33C /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6312BAC6183006FF33C /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
+		A135C6332BAC6183006FF33C /* calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A135C6402BAC61CA006FF33C /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		A135C6422BAC632E006FF33C /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		A135C6472BAC63B9006FF33C /* Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
@@ -90,9 +90,9 @@
 		A135C60A2BAC6182006FF33C = {
 			isa = PBXGroup;
 			children = (
-				A135C6152BAC6183006FF33C /* barberini_calculator */,
-				A135C6262BAC6183006FF33C /* barberini_calculatorTests */,
-				A135C6302BAC6183006FF33C /* barberini_calculatorUITests */,
+				A135C6152BAC6183006FF33C /* calculator */,
+				A135C6262BAC6183006FF33C /* calculatorTests */,
+				A135C6302BAC6183006FF33C /* calculatorUITests */,
 				A135C6142BAC6183006FF33C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,25 +100,25 @@
 		A135C6142BAC6183006FF33C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A135C6132BAC6183006FF33C /* barberini_calculator.app */,
-				A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */,
-				A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */,
+				A135C6132BAC6183006FF33C /* calculator.app */,
+				A135C6232BAC6183006FF33C /* calculatorTests.xctest */,
+				A135C62D2BAC6183006FF33C /* calculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A135C6152BAC6183006FF33C /* barberini_calculator */ = {
+		A135C6152BAC6183006FF33C /* calculator */ = {
 			isa = PBXGroup;
 			children = (
 				A135C64B2BAC678D006FF33C /* Styles */,
 				A135C6462BAC639B006FF33C /* Views */,
 				A135C6452BAC6388006FF33C /* Models */,
-				A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */,
+				A135C6162BAC6183006FF33C /* calculatorApp.swift */,
 				A135C61A2BAC6183006FF33C /* Assets.xcassets */,
 				A135C61C2BAC6183006FF33C /* Preview Content */,
 				A135C6512BAC6964006FF33C /* Constants.swift */,
 			);
-			path = barberini_calculator;
+			path = calculator;
 			sourceTree = "<group>";
 		};
 		A135C61C2BAC6183006FF33C /* Preview Content */ = {
@@ -129,21 +129,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A135C6262BAC6183006FF33C /* barberini_calculatorTests */ = {
+		A135C6262BAC6183006FF33C /* calculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */,
+				A135C6272BAC6183006FF33C /* calculatorTests.swift */,
 			);
-			path = barberini_calculatorTests;
+			path = calculatorTests;
 			sourceTree = "<group>";
 		};
-		A135C6302BAC6183006FF33C /* barberini_calculatorUITests */ = {
+		A135C6302BAC6183006FF33C /* calculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */,
-				A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */,
+				A135C6312BAC6183006FF33C /* calculatorUITests.swift */,
+				A135C6332BAC6183006FF33C /* calculatorUITestsLaunchTests.swift */,
 			);
-			path = barberini_calculatorUITests;
+			path = calculatorUITests;
 			sourceTree = "<group>";
 		};
 		A135C6452BAC6388006FF33C /* Models */ = {
@@ -186,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A135C6122BAC6183006FF33C /* barberini_calculator */ = {
+		A135C6122BAC6183006FF33C /* calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculator" */;
+			buildConfigurationList = A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculator" */;
 			buildPhases = (
 				A135C60F2BAC6183006FF33C /* Sources */,
 				A135C6102BAC6183006FF33C /* Frameworks */,
@@ -198,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = barberini_calculator;
-			productName = barberini_calculator;
-			productReference = A135C6132BAC6183006FF33C /* barberini_calculator.app */;
+			name = calculator;
+			productName = calculator;
+			productReference = A135C6132BAC6183006FF33C /* calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A135C6222BAC6183006FF33C /* barberini_calculatorTests */ = {
+		A135C6222BAC6183006FF33C /* calculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorTests" */;
+			buildConfigurationList = A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculatorTests" */;
 			buildPhases = (
 				A135C61F2BAC6183006FF33C /* Sources */,
 				A135C6202BAC6183006FF33C /* Frameworks */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				A135C6252BAC6183006FF33C /* PBXTargetDependency */,
 			);
-			name = barberini_calculatorTests;
-			productName = barberini_calculatorTests;
-			productReference = A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */;
+			name = calculatorTests;
+			productName = calculatorTests;
+			productReference = A135C6232BAC6183006FF33C /* calculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A135C62C2BAC6183006FF33C /* barberini_calculatorUITests */ = {
+		A135C62C2BAC6183006FF33C /* calculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorUITests" */;
+			buildConfigurationList = A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculatorUITests" */;
 			buildPhases = (
 				A135C6292BAC6183006FF33C /* Sources */,
 				A135C62A2BAC6183006FF33C /* Frameworks */,
@@ -234,9 +234,9 @@
 			dependencies = (
 				A135C62F2BAC6183006FF33C /* PBXTargetDependency */,
 			);
-			name = barberini_calculatorUITests;
-			productName = barberini_calculatorUITests;
-			productReference = A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */;
+			name = calculatorUITests;
+			productName = calculatorUITests;
+			productReference = A135C62D2BAC6183006FF33C /* calculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "barberini_calculator" */;
+			buildConfigurationList = A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,9 +275,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A135C6122BAC6183006FF33C /* barberini_calculator */,
-				A135C6222BAC6183006FF33C /* barberini_calculatorTests */,
-				A135C62C2BAC6183006FF33C /* barberini_calculatorUITests */,
+				A135C6122BAC6183006FF33C /* calculator */,
+				A135C6222BAC6183006FF33C /* calculatorTests */,
+				A135C62C2BAC6183006FF33C /* calculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 				A135C6562BAC6FF9006FF33C /* CalculatorViewModel.swift in Sources */,
 				A135C64D2BAC67A0006FF33C /* CalculatorButtonStyle.swift in Sources */,
 				A135C6542BAC6E83006FF33C /* Calculator.swift in Sources */,
-				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
+				A135C6172BAC6183006FF33C /* calculatorApp.swift in Sources */,
 				A135C6482BAC63B9006FF33C /* Digit.swift in Sources */,
 				A135C6522BAC6964006FF33C /* Constants.swift in Sources */,
 			);
@@ -330,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A135C6282BAC6183006FF33C /* barberini_calculatorTests.swift in Sources */,
+				A135C6282BAC6183006FF33C /* calculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */,
-				A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */,
+				A135C6322BAC6183006FF33C /* calculatorUITests.swift in Sources */,
+				A135C6342BAC6183006FF33C /* calculatorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,12 +348,12 @@
 /* Begin PBXTargetDependency section */
 		A135C6252BAC6183006FF33C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A135C6122BAC6183006FF33C /* barberini_calculator */;
+			target = A135C6122BAC6183006FF33C /* calculator */;
 			targetProxy = A135C6242BAC6183006FF33C /* PBXContainerItemProxy */;
 		};
 		A135C62F2BAC6183006FF33C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A135C6122BAC6183006FF33C /* barberini_calculator */;
+			target = A135C6122BAC6183006FF33C /* calculator */;
 			targetProxy = A135C62E2BAC6183006FF33C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"barberini_calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -513,7 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"barberini_calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -549,7 +549,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barberini_calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/barberini_calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculator";
 			};
 			name = Debug;
 		};
@@ -568,7 +568,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barberini_calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/barberini_calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculator";
 			};
 			name = Release;
 		};
@@ -585,7 +585,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = barberini_calculator;
+				TEST_TARGET_NAME = calculator;
 			};
 			name = Debug;
 		};
@@ -602,14 +602,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = barberini_calculator;
+				TEST_TARGET_NAME = calculator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "barberini_calculator" */ = {
+		A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A135C6352BAC6183006FF33C /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculator" */ = {
+		A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A135C6382BAC6183006FF33C /* Debug */,
@@ -627,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorTests" */ = {
+		A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A135C63B2BAC6183006FF33C /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorUITests" */ = {
+		A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "calculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A135C63E2BAC6183006FF33C /* Debug */,
