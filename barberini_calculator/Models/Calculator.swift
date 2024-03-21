@@ -27,6 +27,7 @@ struct Calculator {
     mutating func setPercent() {
         
     }
+    
     mutating func setDecimal() {
         
     }

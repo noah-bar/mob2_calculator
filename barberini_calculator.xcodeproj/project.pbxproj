@@ -21,6 +21,7 @@
 		A135C6502BAC68B4006FF33C /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C64F2BAC68B4006FF33C /* CalculatorButton.swift */; };
 		A135C6522BAC6964006FF33C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6512BAC6964006FF33C /* Constants.swift */; };
 		A135C6542BAC6E83006FF33C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6532BAC6E83006FF33C /* Calculator.swift */; };
+		A135C6562BAC6FF9006FF33C /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6552BAC6FF9006FF33C /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		A135C64F2BAC68B4006FF33C /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		A135C6512BAC6964006FF33C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A135C6532BAC6E83006FF33C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		A135C6552BAC6FF9006FF33C /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				A135C64E2BAC68A5006FF33C /* Components */,
 				A135C6402BAC61CA006FF33C /* CalculatorView.swift */,
+				A135C6552BAC6FF9006FF33C /* CalculatorViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				A135C6502BAC68B4006FF33C /* CalculatorButton.swift in Sources */,
 				A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */,
 				A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */,
+				A135C6562BAC6FF9006FF33C /* CalculatorViewModel.swift in Sources */,
 				A135C64D2BAC67A0006FF33C /* CalculatorButtonStyle.swift in Sources */,
 				A135C6542BAC6E83006FF33C /* Calculator.swift in Sources */,
 				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
