@@ -14,6 +14,9 @@
 		A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */; };
 		A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */; };
 		A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6402BAC61CA006FF33C /* CalculatorView.swift */; };
+		A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6422BAC632E006FF33C /* ButtonType.swift */; };
+		A135C6482BAC63B9006FF33C /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6472BAC63B9006FF33C /* Digit.swift */; };
+		A135C64A2BAC63C4006FF33C /* ArithmeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6492BAC63C4006FF33C /* ArithmeticOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITests.swift; sourceTree = "<group>"; };
 		A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A135C6402BAC61CA006FF33C /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		A135C6422BAC632E006FF33C /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		A135C6472BAC63B9006FF33C /* Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		A135C6492BAC63C4006FF33C /* ArithmeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,8 @@
 		A135C6152BAC6183006FF33C /* barberini_calculator */ = {
 			isa = PBXGroup;
 			children = (
-				A135C6402BAC61CA006FF33C /* CalculatorView.swift */,
+				A135C6462BAC639B006FF33C /* Views */,
+				A135C6452BAC6388006FF33C /* Models */,
 				A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */,
 				A135C61A2BAC6183006FF33C /* Assets.xcassets */,
 				A135C61C2BAC6183006FF33C /* Preview Content */,
@@ -125,6 +132,24 @@
 				A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */,
 			);
 			path = barberini_calculatorUITests;
+			sourceTree = "<group>";
+		};
+		A135C6452BAC6388006FF33C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6422BAC632E006FF33C /* ButtonType.swift */,
+				A135C6472BAC63B9006FF33C /* Digit.swift */,
+				A135C6492BAC63C4006FF33C /* ArithmeticOperation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A135C6462BAC639B006FF33C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6402BAC61CA006FF33C /* CalculatorView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A135C64A2BAC63C4006FF33C /* ArithmeticOperation.swift in Sources */,
 				A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */,
+				A135C6432BAC632E006FF33C /* ButtonType.swift in Sources */,
 				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
+				A135C6482BAC63B9006FF33C /* Digit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
