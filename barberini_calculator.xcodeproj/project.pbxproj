@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */; };
+		A135C6192BAC6183006FF33C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6182BAC6183006FF33C /* ContentView.swift */; };
+		A135C61B2BAC6183006FF33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61A2BAC6183006FF33C /* Assets.xcassets */; };
+		A135C61E2BAC6183006FF33C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */; };
+		A135C6282BAC6183006FF33C /* barberini_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */; };
+		A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */; };
+		A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A135C6242BAC6183006FF33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A135C60B2BAC6182006FF33C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A135C6122BAC6183006FF33C;
+			remoteInfo = barberini_calculator;
+		};
+		A135C62E2BAC6183006FF33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A135C60B2BAC6182006FF33C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A135C6122BAC6183006FF33C;
+			remoteInfo = barberini_calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A135C6132BAC6183006FF33C /* barberini_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barberini_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorApp.swift; sourceTree = "<group>"; };
+		A135C6182BAC6183006FF33C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A135C61A2BAC6183006FF33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorTests.swift; sourceTree = "<group>"; };
+		A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITests.swift; sourceTree = "<group>"; };
+		A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A135C6102BAC6183006FF33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C6202BAC6183006FF33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C62A2BAC6183006FF33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A135C60A2BAC6182006FF33C = {
+			isa = PBXGroup;
+			children = (
+				A135C6152BAC6183006FF33C /* barberini_calculator */,
+				A135C6262BAC6183006FF33C /* barberini_calculatorTests */,
+				A135C6302BAC6183006FF33C /* barberini_calculatorUITests */,
+				A135C6142BAC6183006FF33C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A135C6142BAC6183006FF33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6132BAC6183006FF33C /* barberini_calculator.app */,
+				A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */,
+				A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A135C6152BAC6183006FF33C /* barberini_calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */,
+				A135C6182BAC6183006FF33C /* ContentView.swift */,
+				A135C61A2BAC6183006FF33C /* Assets.xcassets */,
+				A135C61C2BAC6183006FF33C /* Preview Content */,
+			);
+			path = barberini_calculator;
+			sourceTree = "<group>";
+		};
+		A135C61C2BAC6183006FF33C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A135C6262BAC6183006FF33C /* barberini_calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */,
+			);
+			path = barberini_calculatorTests;
+			sourceTree = "<group>";
+		};
+		A135C6302BAC6183006FF33C /* barberini_calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */,
+				A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */,
+			);
+			path = barberini_calculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A135C6122BAC6183006FF33C /* barberini_calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculator" */;
+			buildPhases = (
+				A135C60F2BAC6183006FF33C /* Sources */,
+				A135C6102BAC6183006FF33C /* Frameworks */,
+				A135C6112BAC6183006FF33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barberini_calculator;
+			productName = barberini_calculator;
+			productReference = A135C6132BAC6183006FF33C /* barberini_calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A135C6222BAC6183006FF33C /* barberini_calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorTests" */;
+			buildPhases = (
+				A135C61F2BAC6183006FF33C /* Sources */,
+				A135C6202BAC6183006FF33C /* Frameworks */,
+				A135C6212BAC6183006FF33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A135C6252BAC6183006FF33C /* PBXTargetDependency */,
+			);
+			name = barberini_calculatorTests;
+			productName = barberini_calculatorTests;
+			productReference = A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A135C62C2BAC6183006FF33C /* barberini_calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorUITests" */;
+			buildPhases = (
+				A135C6292BAC6183006FF33C /* Sources */,
+				A135C62A2BAC6183006FF33C /* Frameworks */,
+				A135C62B2BAC6183006FF33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A135C62F2BAC6183006FF33C /* PBXTargetDependency */,
+			);
+			name = barberini_calculatorUITests;
+			productName = barberini_calculatorUITests;
+			productReference = A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A135C60B2BAC6182006FF33C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A135C6122BAC6183006FF33C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A135C6222BAC6183006FF33C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A135C6122BAC6183006FF33C;
+					};
+					A135C62C2BAC6183006FF33C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A135C6122BAC6183006FF33C;
+					};
+				};
+			};
+			buildConfigurationList = A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "barberini_calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A135C60A2BAC6182006FF33C;
+			productRefGroup = A135C6142BAC6183006FF33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A135C6122BAC6183006FF33C /* barberini_calculator */,
+				A135C6222BAC6183006FF33C /* barberini_calculatorTests */,
+				A135C62C2BAC6183006FF33C /* barberini_calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A135C6112BAC6183006FF33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A135C61E2BAC6183006FF33C /* Preview Assets.xcassets in Resources */,
+				A135C61B2BAC6183006FF33C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C6212BAC6183006FF33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C62B2BAC6183006FF33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A135C60F2BAC6183006FF33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A135C6192BAC6183006FF33C /* ContentView.swift in Sources */,
+				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C61F2BAC6183006FF33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A135C6282BAC6183006FF33C /* barberini_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A135C6292BAC6183006FF33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */,
+				A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A135C6252BAC6183006FF33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A135C6122BAC6183006FF33C /* barberini_calculator */;
+			targetProxy = A135C6242BAC6183006FF33C /* PBXContainerItemProxy */;
+		};
+		A135C62F2BAC6183006FF33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A135C6122BAC6183006FF33C /* barberini_calculator */;
+			targetProxy = A135C62E2BAC6183006FF33C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A135C6352BAC6183006FF33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A135C6362BAC6183006FF33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A135C6382BAC6183006FF33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"barberini_calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A135C6392BAC6183006FF33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"barberini_calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A135C63B2BAC6183006FF33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barberini_calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/barberini_calculator";
+			};
+			name = Debug;
+		};
+		A135C63C2BAC6183006FF33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barberini_calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/barberini_calculator";
+			};
+			name = Release;
+		};
+		A135C63E2BAC6183006FF33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = barberini_calculator;
+			};
+			name = Debug;
+		};
+		A135C63F2BAC6183006FF33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.cpnv.barberini-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = barberini_calculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A135C60E2BAC6182006FF33C /* Build configuration list for PBXProject "barberini_calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A135C6352BAC6183006FF33C /* Debug */,
+				A135C6362BAC6183006FF33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A135C6372BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A135C6382BAC6183006FF33C /* Debug */,
+				A135C6392BAC6183006FF33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A135C63A2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A135C63B2BAC6183006FF33C /* Debug */,
+				A135C63C2BAC6183006FF33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A135C63D2BAC6183006FF33C /* Build configuration list for PBXNativeTarget "barberini_calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A135C63E2BAC6183006FF33C /* Debug */,
+				A135C63F2BAC6183006FF33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A135C60B2BAC6182006FF33C /* Project object */;
+}
