@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */; };
-		A135C6192BAC6183006FF33C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6182BAC6183006FF33C /* ContentView.swift */; };
 		A135C61B2BAC6183006FF33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61A2BAC6183006FF33C /* Assets.xcassets */; };
 		A135C61E2BAC6183006FF33C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */; };
 		A135C6282BAC6183006FF33C /* barberini_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6272BAC6183006FF33C /* barberini_calculatorTests.swift */; };
 		A135C6322BAC6183006FF33C /* barberini_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */; };
 		A135C6342BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */; };
+		A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135C6402BAC61CA006FF33C /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A135C6132BAC6183006FF33C /* barberini_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barberini_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorApp.swift; sourceTree = "<group>"; };
-		A135C6182BAC6183006FF33C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A135C61A2BAC6183006FF33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A135C61D2BAC6183006FF33C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A135C6232BAC6183006FF33C /* barberini_calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		A135C62D2BAC6183006FF33C /* barberini_calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barberini_calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A135C6312BAC6183006FF33C /* barberini_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITests.swift; sourceTree = "<group>"; };
 		A135C6332BAC6183006FF33C /* barberini_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barberini_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A135C6402BAC61CA006FF33C /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		A135C6152BAC6183006FF33C /* barberini_calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A135C6402BAC61CA006FF33C /* CalculatorView.swift */,
 				A135C6162BAC6183006FF33C /* barberini_calculatorApp.swift */,
-				A135C6182BAC6183006FF33C /* ContentView.swift */,
 				A135C61A2BAC6183006FF33C /* Assets.xcassets */,
 				A135C61C2BAC6183006FF33C /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A135C6192BAC6183006FF33C /* ContentView.swift in Sources */,
+				A135C6412BAC61CA006FF33C /* CalculatorView.swift in Sources */,
 				A135C6172BAC6183006FF33C /* barberini_calculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
